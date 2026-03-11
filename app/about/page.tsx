@@ -3,26 +3,7 @@ import Card from '@/components/Card'
 import Badge from '@/components/Badge'
 import personal from '@/data/personal.json'
 import timelineData from '@/data/timeline.json'
-
-const experience = [
-  {
-    company: 'EarthX', title: 'Operations & E-commerce Specialist', period: 'Nov 2025 — Present', location: 'Dallas, TX',
-    bullets: [
-      'Built a web-based employee check-in app using Python and Flask for factory operations',
-      'Manage e-commerce listings on Shopify and coordinate with cross-border suppliers',
-      'Drafted SOPs for machinery maintenance and production line efficiency',
-      'Conducting market research and outreach for potential partnerships with US furniture brands',
-    ],
-  },
-  {
-    company: 'Balfour & Co', title: 'Data Analyst Intern (ERP Digitalization)', period: 'May 2025 — Aug 2025', location: 'Remote',
-    bullets: [
-      'Transformed legacy Baan ERP reports into structured digital formats for modern analytics',
-      'Built interactive dashboards in Power BI, Tableau, and KNIME for real-time production monitoring',
-      'Collaborated with cross-functional teams to translate operational requirements into actionable visualizations',
-    ],
-  },
-]
+import experience from '@/data/experience.json'
 
 export default function AboutPage() {
   return (
@@ -35,7 +16,7 @@ export default function AboutPage() {
 
       <Section title="Journey" subtitle="Timeline">
         <div className="relative pl-7">
-          <div className="absolute left-[6px] top-1 bottom-1 w-px bg-border" />
+          <div className="absolute left-[6px] top-1 bottom-1 w-px bg-[#1a1a2a]" />
           {timelineData.map((e, i) => (
             <div key={i} className="mb-6 relative">
               <div className={`absolute -left-[25px] top-[5px] w-[11px] h-[11px] rounded-full border-2 border-bg ${e.type === 'work' ? 'bg-accent' : 'bg-accent-blue'}`} />

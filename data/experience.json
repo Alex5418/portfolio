@@ -1,0 +1,25 @@
+[
+  {
+    "company": "EarthX",
+    "title": "Operations & E-commerce Specialist",
+    "period": "Nov 2025 — Present",
+    "location": "Dallas, TX",
+    "bullets": [
+      "Built a web-based employee check-in app using Python and Flask for factory operations",
+      "Manage e-commerce listings on Shopify and coordinate with cross-border suppliers",
+      "Drafted SOPs for machinery maintenance and production line efficiency",
+      "Conducting market research and outreach for potential partnerships with US furniture brands"
+    ]
+  },
+  {
+    "company": "Balfour & Co",
+    "title": "Data Analyst Intern (ERP Digitalization)",
+    "period": "May 2025 — Aug 2025",
+    "location": "Remote",
+    "bullets": [
+      "Transformed legacy Baan ERP reports into structured digital formats for modern analytics",
+      "Built interactive dashboards in Power BI, Tableau, and KNIME for real-time production monitoring",
+      "Collaborated with cross-functional teams to translate operational requirements into actionable visualizations"
+    ]
+  }
+]

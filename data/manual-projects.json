@@ -7,7 +7,8 @@
       "tags": ["MongoDB", "KNIME", "Tableau"],
       "status": "completed",
       "type": "course",
-      "from": "Enterprise Database Management"
+      "from": "Enterprise Database Management",
+      "fromCategory": "ba"
     },
     {
       "id": "covid-analysis",
@@ -16,7 +17,8 @@
       "tags": ["Python", "Machine Learning", "Pandas"],
       "status": "completed",
       "type": "course",
-      "from": "Applied ML in Economics"
+      "from": "Applied ML in Economics",
+      "fromCategory": "cs"
     },
     {
       "id": "checkin-app",
@@ -43,7 +45,8 @@
       "desc": "CS225 team final project. Built a graph-based system using OpenFlights data to find shortest routes between airports and rank the 10 most important airports globally.",
       "tags": ["C++", "Graph Algorithms", "BFS/Dijkstra"],
       "github": "https://github.com/Alex5418/Final-project",
-      "from": "Data Structures (CS225)"
+      "from": "Data Structures (CS225)",
+      "fromCategory": "cs"
     },
     {
       "id": "level-design",
@@ -51,7 +54,8 @@
       "desc": "Course MPs exploring game level design concepts and infinite matrix implementations in C++.",
       "tags": ["C++", "Game Dev"],
       "github": "https://github.com/Alex5418/LevelDesignMP2LFS",
-      "from": "CS Course MP"
+      "from": "CS Course MP",
+      "fromCategory": "cs"
     }
   ]
 }
