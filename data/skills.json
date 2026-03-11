@@ -1,0 +1,39 @@
+[
+  {
+    "category": "Programming",
+    "items": [
+      { "name": "Python", "detail": "Flask, Pandas, ML libraries" },
+      { "name": "SQL", "detail": "MySQL, PostgreSQL, MongoDB" },
+      { "name": "R", "detail": "Statistical analysis, econometrics" },
+      { "name": "C++", "detail": "Data structures, algorithms" },
+      { "name": "Java", "detail": "OOP fundamentals" }
+    ]
+  },
+  {
+    "category": "Analytics & Visualization",
+    "items": [
+      { "name": "Tableau", "detail": "Interactive dashboards" },
+      { "name": "Power BI", "detail": "Enterprise reporting" },
+      { "name": "KNIME", "detail": "Data pipelines, ETL" },
+      { "name": "Excel", "detail": "Advanced modeling" }
+    ]
+  },
+  {
+    "category": "Developer Tools",
+    "items": [
+      { "name": "Git / GitHub", "detail": "Version control" },
+      { "name": "VS Code", "detail": "Primary IDE" },
+      { "name": "Google Cloud", "detail": "Cloud deployment" },
+      { "name": "PythonAnywhere", "detail": "Web app hosting" }
+    ]
+  },
+  {
+    "category": "Domain Knowledge",
+    "items": [
+      { "name": "Business Analytics", "detail": "Consumer insights, strategy" },
+      { "name": "Economics", "detail": "Micro/Macro, econometrics" },
+      { "name": "E-commerce", "detail": "Shopify, cross-border ops" },
+      { "name": "ERP Systems", "detail": "Baan ERP digitalization" }
+    ]
+  }
+]

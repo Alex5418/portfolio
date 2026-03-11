@@ -1,0 +1,12 @@
+[
+  { "name": "Enterprise Database Management", "category": "ba", "tools": ["SQL", "MongoDB"], "school": "Gies" },
+  { "name": "Consumer Analytics", "category": "ba", "tools": ["Python", "KNIME"], "school": "Gies" },
+  { "name": "Data Storytelling", "category": "ba", "tools": ["Tableau", "Power BI"], "school": "Gies" },
+  { "name": "Data Structures (CS225)", "category": "cs", "tools": ["C++"], "project": "cs225-final", "school": "UIUC" },
+  { "name": "Applied Machine Learning in Economics", "category": "cs", "tools": ["Python", "ML"], "school": "UIUC" },
+  { "name": "Intro to Computer Science", "category": "cs", "tools": ["C++"], "project": "level-design", "school": "UIUC" },
+  { "name": "Microeconomics", "category": "econ", "tools": [], "school": "UIUC" },
+  { "name": "Macroeconomics", "category": "econ", "tools": [], "school": "UIUC" },
+  { "name": "Econometrics", "category": "econ", "tools": ["R", "Stata"], "school": "UIUC" },
+  { "name": "Statistics & Probability", "category": "math", "tools": ["R"], "school": "UIUC" }
+]

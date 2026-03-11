@@ -1,0 +1,7 @@
+[
+  { "year": "2020", "title": "Started at UIUC", "desc": "B.S. Economics with a Minor in Computer Science", "type": "education" },
+  { "year": "2024", "title": "Graduated UIUC", "desc": "Completed undergrad — Econ major, CS minor", "type": "education" },
+  { "year": "2024", "title": "MS Technology Management", "desc": "Gies College of Business, UIUC — BA & IT concentration", "type": "education" },
+  { "year": "2025", "title": "Balfour & Co", "desc": "Data Analyst Intern — ERP digitalization, Power BI, Tableau", "type": "work" },
+  { "year": "2025", "title": "EarthX", "desc": "Operations & E-commerce Specialist — Flask apps, Shopify, SOPs", "type": "work" }
+]

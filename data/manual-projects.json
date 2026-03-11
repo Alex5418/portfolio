@@ -1,0 +1,57 @@
+{
+  "featured": [
+    {
+      "id": "restaurant-analytics",
+      "title": "Restaurant Review Analytics & Strategy",
+      "desc": "Designed a full data pipeline in KNIME to parse JSON-format Yelp review data from MongoDB Atlas. Applied transformation techniques to identify key factors affecting customer satisfaction and developed visual dashboards to propose data-driven location strategies for new restaurants.",
+      "tags": ["MongoDB", "KNIME", "Tableau"],
+      "status": "completed",
+      "type": "course",
+      "from": "Enterprise Database Management"
+    },
+    {
+      "id": "covid-analysis",
+      "title": "COVID-19 Socio-Economic Impact Analysis",
+      "desc": "Analyzed correlations between COVID-19 case data and economic indicators (GDP, HDI) using Kaggle datasets. Implemented multiple ML models including Lasso Regression and Decision Trees to predict case trends across countries.",
+      "tags": ["Python", "Machine Learning", "Pandas"],
+      "status": "completed",
+      "type": "course",
+      "from": "Applied ML in Economics"
+    },
+    {
+      "id": "checkin-app",
+      "title": "Employee Check-in Web Application",
+      "desc": "Built a web-based employee check-in system using Python and Flask for EarthX factory operations. Streamlined daily attendance tracking and integrated with existing operational workflows.",
+      "tags": ["Python", "Flask", "Web Dev"],
+      "status": "completed",
+      "type": "work",
+      "from": "EarthX"
+    },
+    {
+      "id": "portfolio-chatbot",
+      "title": "RAG Portfolio Chatbot",
+      "desc": "An AI-powered assistant that lives on this website, capable of answering questions about my background, projects, and skills using Retrieval-Augmented Generation.",
+      "tags": ["Python", "Claude API", "RAG", "Vector DB"],
+      "status": "planned",
+      "type": "side"
+    }
+  ],
+  "archive": [
+    {
+      "id": "cs225-final",
+      "title": "Airport Shortest Routes Finder",
+      "desc": "CS225 team final project. Built a graph-based system using OpenFlights data to find shortest routes between airports and rank the 10 most important airports globally.",
+      "tags": ["C++", "Graph Algorithms", "BFS/Dijkstra"],
+      "github": "https://github.com/Alex5418/Final-project",
+      "from": "Data Structures (CS225)"
+    },
+    {
+      "id": "level-design",
+      "title": "Game Level Design — Infinite Matrix",
+      "desc": "Course MPs exploring game level design concepts and infinite matrix implementations in C++.",
+      "tags": ["C++", "Game Dev"],
+      "github": "https://github.com/Alex5418/LevelDesignMP2LFS",
+      "from": "CS Course MP"
+    }
+  ]
+}
