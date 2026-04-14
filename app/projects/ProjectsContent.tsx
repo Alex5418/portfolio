@@ -13,7 +13,7 @@ const statusStyles: Record<string, { bg: string; text: string; label: string }> 
   planned: { bg: '#53348320', text: '#9575cd', label: 'Coming Soon' },
 }
 
-type FeaturedProject = { id: string; title: string; desc: string; tags: string[]; status: string; type: string; from?: string; fromCategory?: string }
+type FeaturedProject = { id: string; title: string; desc: string; tags: string[]; status: string; type: string; from?: string; fromCategory?: string; github?: string }
 type ArchiveProject = { id: string; title: string; desc: string; tags: string[]; github?: string; from: string; fromCategory?: string }
 
 export default function ProjectsContent({ highlight }: { highlight?: string }) {
@@ -87,18 +87,25 @@ export default function ProjectsContent({ highlight }: { highlight?: string }) {
                   <div className="flex gap-1 flex-wrap mb-2">
                     {p.tags.map((t) => <Tag key={t}>{t}</Tag>)}
                   </div>
-                  {p.from && (
-                    <div className="text-[10px] text-text-muted">
-                      {p.type === 'course' ? '📚' : '💼'}{' '}
-                      {p.type === 'course' && p.fromCategory ? (
-                        <Link href={`/education?highlight=${p.fromCategory}`} className="hover:text-accent hover:underline transition-colors">
-                          From: {p.from}
-                        </Link>
-                      ) : (
-                        <>From: {p.from}</>
-                      )}
-                    </div>
-                  )}
+                  <div className="flex justify-between items-center">
+                    {p.from && (
+                      <div className="text-[10px] text-text-muted">
+                        {p.type === 'course' ? '📚' : '💼'}{' '}
+                        {p.type === 'course' && p.fromCategory ? (
+                          <Link href={`/education?highlight=${p.fromCategory}`} className="hover:text-accent hover:underline transition-colors">
+                            From: {p.from}
+                          </Link>
+                        ) : (
+                          <>From: {p.from}</>
+                        )}
+                      </div>
+                    )}
+                    {p.github && (
+                      <a href={p.github} target="_blank" rel="noopener noreferrer" className="text-[10px] text-text-muted hover:text-text-secondary transition-colors">
+                        GitHub ↗
+                      </a>
+                    )}
+                  </div>
                 </Card>
               </div>
             )

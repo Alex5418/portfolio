@@ -36,6 +36,33 @@
       "tags": ["Python", "Claude API", "RAG", "Vector DB"],
       "status": "planned",
       "type": "side"
+    },
+    {
+      "id": "crm-wxlr",
+      "title": "Disney Licensed Business CRM",
+      "desc": "Full-stack CRM for a family company's Disney licensing operations — managing 30+ customers, a 7-stage project pipeline (lead → sampling → production → live), contracts with expiry alerts, and follow-up timelines. Built 9 pages with Kanban/list dual views, role-based access (4 roles), PDF upload to COS, Excel export, and a dual-mode API layer that switches between local mock data and Tencent CloudBase REST backend via env variable.",
+      "tags": ["React 19", "TypeScript", "Tailwind CSS", "Tencent CloudBase"],
+      "status": "in-progress",
+      "type": "side",
+      "github": "https://github.com/Alex5418/CRM-WXLR"
+    },
+    {
+      "id": "sts2-agent",
+      "title": "Slay the Spire 2 AI Agent",
+      "desc": "A 1,700-line Python agent that plays Slay the Spire 2 autonomously using local LLMs. Runs an observe→think→act loop across 13 game states, routing only 1–3 relevant tools per state to keep small models focused. Features pre-computed combat math (damage/block/kill thresholds), energy guards, parser fallback for unstructured LLM output, and loop detection. Achieved 91% action success rate and beat the Act 1 boss with Qwen3.5-27B on an RTX 4090.",
+      "tags": ["Python", "LLM Agent", "Game AI", "Prompt Engineering"],
+      "status": "in-progress",
+      "type": "side",
+      "github": "https://github.com/Alex5418/STS2-Agent"
+    },
+    {
+      "id": "k8s-ml-inference",
+      "title": "K8s ML Inference + Observability Stack",
+      "desc": "A FastAPI inference service on Kubernetes with custom Prometheus metrics (Counter + Histogram), automatic service discovery via ServiceMonitor CRD, and Grafana dashboards tracking RPS, P99 latency, and per-pod memory. Includes a 3-namespace microservices networking exercise with cross-namespace DNS, and resilience testing through pod deletion, full outage simulation, and 500-request load tests — all in 261 lines of code on Minikube.",
+      "tags": ["Kubernetes", "Docker", "FastAPI", "Prometheus", "Grafana"],
+      "status": "completed",
+      "type": "side",
+      "github": "https://github.com/Alex5418/My-first-k8s-miniproject"
     }
   ],
   "archive": [

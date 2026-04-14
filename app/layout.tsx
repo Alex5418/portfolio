@@ -19,6 +19,11 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: 'Yiduo (Alex) Wang — Portfolio',
   description: 'Economist × Technologist × Data Storyteller',
+  openGraph: {
+    title: 'Yiduo (Alex) Wang — Portfolio',
+    description: 'Economist × Technologist × Data Storyteller',
+    type: 'website',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

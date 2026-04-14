@@ -2,7 +2,8 @@
   {
     "category": "Programming",
     "items": [
-      { "name": "Python", "detail": "Flask, Pandas, ML libraries" },
+      { "name": "Python", "detail": "Flask, FastAPI, Pandas, ML libraries" },
+      { "name": "TypeScript", "detail": "React, Vite, full-stack web apps" },
       { "name": "SQL", "detail": "MySQL, PostgreSQL, MongoDB" },
       { "name": "R", "detail": "Statistical analysis, econometrics" },
       { "name": "C++", "detail": "Data structures, algorithms" },
@@ -22,14 +23,16 @@
     "category": "Developer Tools",
     "items": [
       { "name": "Git / GitHub", "detail": "Version control" },
-      { "name": "VS Code", "detail": "Primary IDE" },
-      { "name": "Google Cloud", "detail": "Cloud deployment" },
-      { "name": "PythonAnywhere", "detail": "Web app hosting" }
+      { "name": "Docker / Kubernetes", "detail": "Containerization, Minikube, Helm" },
+      { "name": "Prometheus / Grafana", "detail": "Metrics, dashboards, observability" },
+      { "name": "Tencent CloudBase", "detail": "Serverless backend, COS storage" },
+      { "name": "VS Code", "detail": "Primary IDE" }
     ]
   },
   {
     "category": "Domain Knowledge",
     "items": [
+      { "name": "LLM / AI Agents", "detail": "Prompt engineering, tool-use, local models" },
       { "name": "Business Analytics", "detail": "Consumer insights, strategy" },
       { "name": "Economics", "detail": "Micro/Macro, econometrics" },
       { "name": "E-commerce", "detail": "Shopify, cross-border ops" },

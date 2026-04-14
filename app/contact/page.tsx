@@ -36,10 +36,10 @@ export default function ContactPage() {
         <Card className="text-center py-8">
           <div className="text-3xl mb-3">📄</div>
           <div className="text-sm text-text-secondary mb-4">
-            Resume PDF download link will go here
+            Resume is being finalized — check back soon!
           </div>
-          <button className="px-7 py-2.5 text-sm rounded-lg border border-accent text-accent hover:bg-[#e9456010] transition-colors">
-            Download Resume
+          <button disabled className="px-7 py-2.5 text-sm rounded-lg border border-[#333] text-text-muted cursor-not-allowed">
+            Coming Soon
           </button>
         </Card>
       </Section>
